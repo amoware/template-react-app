@@ -1,0 +1,27 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "extensions": {
+        "recommendations": [
+            "christian-kohler.path-intellisense",
+            "dsznajder.es7-react-js-snippets",
+            "christian-kohler.npm-intellisense",
+            "ritwickdey.liveserver",
+            "esbenp.prettier-vscode",
+            "dbaeumer.vscode-eslint"
+        ]
+    },
+    "settings": {
+        "editor.codeActionsOnSave": {
+            "source.formatDocument" : true,
+            "source.fixAll.eslint": true
+        },
+        "editor.formatOnSave": true,
+        "prettier.configPath": ".prettierrc",
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.rulers": [150]
+    }
+}
