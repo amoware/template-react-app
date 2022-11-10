@@ -6,7 +6,8 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "test": "run-s lint prettier && vitest run",
+    "test": "run-s lint prettier unit",
+    "unit": "vitest run",
     "coverage": "vitest run --coverage",
     "preview": "vite preview",
     "lint": "eslint .",
