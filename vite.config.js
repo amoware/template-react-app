@@ -7,12 +7,14 @@ export default defineConfig({
     plugins: [
         react(),
         zipPack({
-            outDir: "build",
+            outDir: ".",
             outFileName: `${name}-${version}.zip`
         })
     ],
     server: {
-        port: 8080
+        open: true,
+        port: 8080,
+        strictPort: true
     },
     test: {
         globals: true,

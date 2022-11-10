@@ -12,6 +12,7 @@ dist
 dist-ssr
 build
 *.local
+template-react-app-*.zip
 
 # Editor directories and files
 .vscode/*
